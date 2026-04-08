@@ -1,1 +1,17 @@
+path: ../../datasets/citricos
+train: images/train
+val: images/val
 
+# Número de clases
+nc: 8
+
+# Nombres de las clases (puedes ampliarlas después)
+names:
+  0: orange_healthy
+  1: orange_mild_stress
+  2: orange_severe_stress
+  3: citrus_greening
+  4: citrus_canker
+  5: black_spot
+  6: fruit_fly_damage
+  7: nutrient_deficiency
